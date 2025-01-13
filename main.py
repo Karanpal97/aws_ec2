@@ -96,7 +96,7 @@ def create_vm(
     region: str = "us-east-1",
     ami_id: str = "ami-0c02fb55956c7d316",
     instance_type: str = "t2.micro",
-    vpc_id: str = "vpc-0abcd1234abcd1234"
+    vpc_id: str = "vpc-0b314c72b3329f060"
 ):
     validate_credentials(access_key, secret_key, region)
 
